@@ -17,5 +17,8 @@ public class hash1 {
         map.put(2,5000000);
         System.out.println("After change: "+map.get(2));
 
+        // Remove element from Hashmap
+        map.remove(3);
+        System.out.println(map);
     }
 }
